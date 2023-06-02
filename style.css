@@ -1,0 +1,299 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+ div.body {
+    width: 1340px;
+} 
+
+.nav-title {
+    font-weight: 500;
+    font-size: 40px;
+   
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 15px;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* --------------------------- Banner Style ---------------------------*/
+.banner {
+    margin-left: 80px;
+}
+
+.banner-items {
+    position: absolute;
+    margin-left: 550px;
+    
+    text-align: right;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 50px;
+    width: 400px;
+    margin-top: 200px;
+    
+
+}
+
+.banner-description {
+    width: 400px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    line-height: 30px;
+    text-align: right;
+    margin-top: 20px;
+
+}
+
+.banner-btn {
+    
+    width: 130px;
+    height: 64px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 30px;
+
+}
+
+.bannerImg {
+    margin: auto;
+    width: 1140px;
+    height: 700px;
+}
+/*------------------------------------Style Section two-----------------*/
+.section-two {
+    display: flex;
+    width: 1000px;
+    margin-top: 100px;
+    
+}
+
+.section-two-image {
+    width: 50%px;
+    height: 200px;
+}
+.section-two-image img{
+    width: 400px;
+    height: 550px;
+
+}
+.section-two-items{
+    width: 50%;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.section-two-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ .section-two-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #615b5b;
+} 
+
+.list {
+    margin-top: 13px;
+    color: #615b5b; 
+}
+
+/*--------------------------------------- Style My Plan Section-----------------*/
+.my-plan {
+    margin-top: 200px;
+    width: 800px;
+}
+
+.my-plan-head {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*------------------------------------Style Extra-section-------------------------*/
+.extra-section {
+    margin-bottom: 100px;
+    width: 1141px;
+    height: 320px;
+    margin-top: 100px;
+    background-color: #0cbdbd;
+    display: flex;
+    justify-content: center;
+}
+.extra-section-left{
+    text-align: left;
+}
+
+.extra-section-title {
+    font-weight: 700;
+    font-size: 45px;
+    background-color: #0cbdbd;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.extra-section-description {
+    margin-left: 80px;
+    margin-bottom: 10px;
+    color: #615b5b;
+}
+
+.extra-section-image {
+    
+    width: 456px;
+    height: 360px;
+   
+}
+
+.extra-section-btn {
+    
+    width: 160px;
+    height: 64px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: none;
+    color: #030302;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+/*---------------------------------------Style Call Now Section-----------------------------------*/
+.call-now-section {
+    width: 1140px;
+    height: 300px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    margin-bottom: 100px;
+}
+.call-now-section-title{
+    font-weight: 700;
+    font-size: 40px;
+    
+    padding-top: 100px;
+    padding-left: 100px;
+    color: #FFFFFF;
+
+}
+
+.banner-btn1 {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 160px;
+    height: 64px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: none;
+    color: #F15B22;
+}
+
+/* ------------------------------------ Footer section ----------------------------*/
+.footer {
+    width: 1600px;
+    height: 577px;
+    background: #151414;
+    
+
+}
+.footer-section{
+    width: 1140px;
+    display: flex;
+}
+
+.footer-left {
+   width: 50%;
+   text-align: left;
+    
+
+}
+
+.footer-left-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.footer-left-description {
+    width: 485px;
+    height: 780px;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+}
+
+.footer-list {
+    color: white;
+    margin-top: 40px;
+    line-height: 40px;
+}
+
+/* footer-right-section */
+.footer-right {
+    width: 50%;
+    text-align: left;
+    
+}
+
+.footer-right-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 140px;
+    /* padding-bottom: 120px; */
+    color: white;
+    margin-left: 10px;
+
+
+}
+
+.footer-right-form {
+    width: auto;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.footer-right-btn {
+    width: 120px;
+    height: 44px;
+    margin-left: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: none;
+    color: #F15B22;
+}
